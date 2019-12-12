@@ -24,7 +24,8 @@ def get_filters():
         city = input('Please Enter the valid city!\n').lower()
     if city in city_data:
         print('the city you\'ve been chosen is : {}'.format(city))
-
+    if city in city_data.keys(washington):
+        print "warning: there's lack of washington people data" 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Please Enter the month!\n').lower()
     while month not in months:
@@ -86,7 +87,7 @@ def load_data(city, month, day):
     # filter the data according to month and weekday into two new DataFrames
     if isinstance(month, list):
         df = pd.concat(map(lambda month: df[df['Month'] == (months.index(month)+1)], month))
-    
+
     else:
         df = df[df['Month'] == (months.index(month)+1)]
 
@@ -209,7 +210,7 @@ def slicing (df):
 
     # each loop displays 5 lines of raw data
     global from_offset
-	
+
     from_offset = 0
 
     raw_data = df.iloc[from_offset:from_offset+5]
@@ -225,7 +226,7 @@ def slicing (df):
             break
 
     return raw_data
-	
+
 
 def main():
     while True:
