@@ -1,13 +1,10 @@
 ### Date created
 12/12/2019
 ### Project Title
-Replace the Project Title
-
+bike share project
 ### Description
-Describe what your project is about and what it does
-
+Run data science programming to analyze the data
 ### Files used
-Include the files used
-
+new_york_city.csv chicago.csv washington.csv
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
