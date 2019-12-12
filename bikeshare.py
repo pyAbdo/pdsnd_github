@@ -176,7 +176,7 @@ total_travel_time = (str(int(total_travel_time //86400)) + 'd ' + str(int((total
 
               def user_stats(df):
               ""
-              "Displays statistics on bikeshare users."
+              "Display statistics on bike bikeshare"
               ""
 
               print('\nCalculating User Stats...\n') start_time = time.time()
