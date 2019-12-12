@@ -25,7 +25,7 @@ def get_filters():
     if city in city_data:
         print('the city you\'ve been chosen is : {}'.format(city))
     if city in city_data.keys(washington):
-        print "warning: there's lack of washington people data" 
+        print "warning: there's lack of washington people data"
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Please Enter the month!\n').lower()
     while month not in months:
@@ -152,6 +152,7 @@ def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
+    print ('\the is a 15 min added for rain,strong wind, and accidents\n')
     start_time = time.time()
 
     # TO DO: display total travel time
