@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import time
 import datetime as dt
+import ggplot as plot
 
 city_data ={'chicago':'chicago.csv','new york city':'new_york_city.csv','washington':'washington.csv'}
 months = ('january', 'february', 'march', 'april', 'may', 'june')
