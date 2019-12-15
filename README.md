@@ -1,6 +1,6 @@
 ### Date created
 12/12/2019
-### Project Title
+### project title
 bike share Project
 ### Description
 Run data science programming to analyze data
@@ -8,4 +8,10 @@ Run data science programming to analyze data
 new_york_city.csv chicago.csv washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks for all Udacity team, and AAL internship for your support and care.
+
+project wrap-up
+
+through this course I have learned how to make an advanced query using SQL,
+how to implement machine learning in a use case
+saving my work using vision control.
