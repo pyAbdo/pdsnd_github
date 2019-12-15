@@ -1,7 +1,7 @@
 ### Date created
 12/12/2019
-### Project Title
-bike share Project
+### project title
+Bike share project 
 ### Description
 Run data science programming to analyze data
 ### Files used
